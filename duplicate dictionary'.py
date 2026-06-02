@@ -1,17 +1,12 @@
-arr = [5,5,5,5,5,1]
-
+arr = [1,2,3,2,4,5,1,6]
 d={}
-
 for i in arr:
     if i in d:
         d[i]+=1
     else:
         d[i]=1
-a=-100
-b=""
-print(d)
+l=[]
 for k,i in d.items():
-    if i>a:
-        a=i
-        b=k
-print(b)
+    if i>1:
+        l.append(k)
+print(l)
