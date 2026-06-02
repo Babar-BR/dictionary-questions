@@ -1,0 +1,10 @@
+s= "babar is good boy"
+print(s.capitalize())
+print(s.upper())
+print(s.lower())
+print(s.swapcase())
+print(s.split())
+print(s.replace("good","bad"))
+print(s.title())
+print(type(s))
+print(s.count("s"))
