@@ -1,4 +1,4 @@
-a = "babar"
+    a = "babar"
 s = ""
 for i in range(len(a)):
     if a[i] not in s:
